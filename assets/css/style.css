@@ -6599,6 +6599,7 @@ footer {
 footer .f-item.about {
 	position: relative;
 	z-index: 1;
+	background-color: white;
 }
 
 footer .f-item.about::after {

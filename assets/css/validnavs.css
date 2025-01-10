@@ -428,6 +428,15 @@ nav.validnavs .dropdown.megamenu-fw {
 nav.validnavs .container {
 	position: relative;
 }
+@media only screen and (max-width: 768px) {
+    nav.validnavs .container {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        /* z-index: 1000;  */
+		margin-top: 0px;
+    }
+}
 
 nav.validnavs .megamenu-fw .dropdown-menu {
 	left: auto;
