@@ -1301,7 +1301,7 @@ nav.navbar.validnavs.navbar-fixed.no-background {
 	width: 100%;
 	z-index: 100;
 	box-shadow: 0 8px 25px 0 rgb(0 0 0 / 4%);
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 nav.navbar.validnavs {

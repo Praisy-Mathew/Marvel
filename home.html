@@ -39,6 +39,21 @@
 }
 
 </style>
+<style>
+    .swiper-slide img {
+        height: 400px; /* Set the desired height */
+        width: 500px; /* Set the desired width */
+        object-fit: cover; /* Ensures the image maintains aspect ratio */
+    }
+    .full-background {
+            background-image: url('assets/img/1.jpg'); /* Set your background image */
+            background-size: cover; /* Ensures the image covers the entire section */
+            background-position: center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents tiling */
+            height: 100vh; /* Full viewport height */
+            width: 100%; /* Full width */
+        }
+</style>
 </head>
 
 
@@ -276,8 +291,8 @@
     
     <!-- Start Banner 
     ============================================= -->
-    <div style="background-image: none;"></div>
-<div class="banner-style-one" style="background-image: url(assets/img/shape/1.png);">
+<div class="full-background">    
+    <div class="banner-style-one">
     <div class="container">
         <div class="row align-center">
             <!-- Left Section -->
@@ -318,7 +333,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <!-- Add the CSS -->
 <style>
     /* Rotating content container */
@@ -908,7 +923,7 @@
                                 <!-- Single Item -->
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
-                                        <img src="assets/img/DALL·E-4. .png" alt="Thumb">
+                                        <img src="assets/img/cctv1.jpeg" alt="Thumb">
                                         <div class="overlay">
                                             <div class="link">
                                                 <a href="project-details.html"><i class="fas fa-arrow-right"></i></a>
@@ -924,7 +939,7 @@
                                 <!-- Single Item -->
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
-                                        <img src="assets/img/DALL·E-5.png" alt="Thumb">
+                                        <img src="assets/img/home-automation-systems.jpg" alt="Thumb">
                                         <div class="overlay">
                                             <div class="link">
                                                 <a href="project-details.html"><i class="fas fa-arrow-right"></i></a>
@@ -940,7 +955,7 @@
                                 <!-- Single Item -->
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
-                                        <img src="assets/img/DALL·E-6.png" alt="Thumb">
+                                        <img src="assets/img/computer.avif" alt="Thumb">
                                         <div class="overlay">
                                             <div class="link">
                                                 <a href="project-details.html"><i class="fas fa-arrow-right"></i></a>
@@ -972,7 +987,7 @@
                                 <!-- Single Item -->
                                 <div class="swiper-slide">
                                     <div class="project-style-one">
-                                        <img src="assets/img/DALL·E-7.png" alt="Thumb">
+                                        <img src="assets/img/solar.jpeg" alt="Thumb">
                                         <div class="overlay">
                                             <div class="link">
                                                 <a href="project-details.html"><i class="fas fa-arrow-right"></i></a>
@@ -1511,9 +1526,11 @@ listItems.forEach((item) => {
                                     Providing CCTV, automation, and computer accessories services tailored for your business.                                </p>
                                 <div class="footer-social mt-30">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="https://wa.me/9633007741"><i class="fab fa-whatsapp"></i></a></li>
+                                        <li><a href="https://www.facebook.com/marveltechnos?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
+                                        <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
+                                        <!-- <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li> -->
+
                                     </ul>
                                 </div>
                             </div>
@@ -1580,16 +1597,19 @@ listItems.forEach((item) => {
                                             </p>
                                         </div>
                                     </li>
+                                    
                                     <li>
                                         <div class="content">
                                             <strong style="color: white;">Email:</strong>
-                                            <a href="mailto:info@marveltechnos.com" style="color: white;">info@marveltechnos.com</a>
+                                            <a href="mailto:info@marveltechnos.com" style="color: white;">marveltechnos@gmail.com</a>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="content">
                                             <strong style="color: white;">Phone:</strong>
                                             <a href="tel:08086432332" style="color: white;">08086432332</a>
+                                            <br>
+                                            <a href="tel:9633007741" style="color: white;">9633007741</a>
                                         </div>
                                     </li>
                                 </ul>
